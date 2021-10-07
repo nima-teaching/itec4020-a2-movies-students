@@ -4,6 +4,7 @@ In this assignment, you will be learning to use MongoDB and Mongoose while creat
 REST API endpoints using Express. Please read the PDF instructions on
 eClass to understand what is needed to complete the assignment.
 
+- API Documentation: https://documenter.getpostman.com/view/2210306/UUy1emqV
 - Dataset: https://www.kaggle.com/rounakbanik/the-movies-dataset
 
 ## Environment File
