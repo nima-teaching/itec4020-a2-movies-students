@@ -41,7 +41,7 @@ router.get('/movies', async (req, res) => {
 
 // GET /movies/:id --> gets a movie by id
 router.get('/movies/:id', async (req, res) => {
-
+  // TODO: fill out the code for the endpoint
 })
 
 // POST /search/movies/by-genres --> searches for JSON array of genres we want to search in, sorted and paginated
@@ -51,7 +51,7 @@ router.get('/movies/:id', async (req, res) => {
  * For more information, see: https://docs.mongodb.com/manual/reference/operator/query/all/
  */
 router.post('/search/movies/by-genres', async (req, res) => {
-  
+  // TODO: fill out the code for the endpoint
 })
 
 // POST /search/movies/by-countries --> searches for movies with JSON array of countries
@@ -63,7 +63,7 @@ router.post('/search/movies/by-genres', async (req, res) => {
  * For more information, see: https://docs.mongodb.com/manual/reference/operator/query/in/
  */
 router.post('/search/movies/by-countries', async (req, res) => {
-  
+  // TODO: fill out the code for the endpoint
 })
 
 // POST /movies/:id/comments --> creates a comment for a movie, gets the object structure as JSON
@@ -72,12 +72,12 @@ router.post('/search/movies/by-countries', async (req, res) => {
  * For more information, see: https://mongoosejs.com/docs/populate.html
  */
 router.post('/movies/:id/comments', async (req, res) => {
-
+  // TODO: fill out the code for the endpoint
 })
 
 // GET /movies/:id/comments --> gets the comments for a movie, paginated, sorted by posting date (descending, meaning from new to old)
 router.get('/movies/:id/comments', async (req, res) => {
-  
+  // TODO: fill out the code for the endpoint
 })
 
 module.exports = router
