@@ -10,7 +10,7 @@
     "dev": "nodemon src/app.js -e js,hbs",
     "start": "node src/app.js",
     "mkdir": "mkdirp submission",
-    "copy-src": "copyfiles package.json src/* src/**/* submission",
+    "copy-src": "copyfiles package.json src/* src/**/* views/* views/**/* submission",
     "copy-data": "copyfiles data/**/* submission",
     "prezip": "rimraf submission.zip",
     "zip": "bestzip submission.zip submission/",
